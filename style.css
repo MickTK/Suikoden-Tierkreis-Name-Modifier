@@ -1,0 +1,21 @@
+* {
+  text-align: center;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+div {
+  text-align: center;
+  margin-top: 25px;
+}
+
+textarea {
+  resize: none;
+}
+
+#copy_button {
+  visibility: hidden;
+}

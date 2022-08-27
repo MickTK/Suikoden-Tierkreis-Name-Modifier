@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Suikoden Tierkreis Name Modifier</title>
+        <meta name="author" content="MickTK">
+        <meta name="description" content="description">
+        <meta name="keywords" content="suikoden, tierkreis, name, modifier, editor, action replay, tool">
+        <link rel="icon" href="https://user-images.githubusercontent.com/63038410/186919839-db58f568-4bf0-4fbf-9841-d666ea9db4fa.png" sizes="32x32">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+      <!-- Header -->
+      <div>
+        <img width="40%" src="https://user-images.githubusercontent.com/63038410/186919839-db58f568-4bf0-4fbf-9841-d666ea9db4fa.png" alt="">
+      </div>
+
+      <!-- Input -->
+      <div>
+        <!-- Name type -->
+        <select id="type">
+          <option value="hero">Hero</option>
+          <option value="army">Army</option>
+          <option value="castle">Castle</option>
+        </select>
+
+        <!-- Input name -->
+        <input size="20" value="" type="text" name="text" maxlength="16" placeholder="Insert name">
+
+        <!-- Generate button -->
+        <button id="generate_button">Generate</button>
+      </div>
+      
+      <!-- Output -->
+      <div id="output"></div>
+
+      <!-- Copy button -->
+      <button id="copy_button">Copy</button>
+
+      <!-- Github link -->
+      <br><br><br>
+      <a target="_blank" href="https://github.com/MickTK/SuikodenTierkreisNameModifier">Github</a>
+    </body>
+</html>
